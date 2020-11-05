@@ -1,0 +1,94 @@
+p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 35px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: #87ceff;
+}
+
+.links:link, .links:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.links:hover, .links:active {
+  background-color:white;
+}
+
+.emoji {
+  background-color : #87ceff;
+  border: solid ;
+  color: #87ceff;
+  border-width: 0px;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 50%;
+  display: inline;
+} 
+
+.emotionButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.links {
+  display: flex;
+  flex-direction: row;
+  border-radius: 15px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px;
+}
+
+.allLinks {
+  display: flex;
+  justify-content: space-around;
+}
+
+.resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  padding: 40px 20px;
+}
+
+.emoji:link, .emoji:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.emoji:hover, .emoji:active {
+  background-color:white;
+}
+
+.crisis:link, .crisis:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.crisis:hover, .crisis:active {
+  background-color:red;
+  color: white;
+}

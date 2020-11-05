@@ -1,0 +1,123 @@
+h2 {
+  color: #84ccff;
+  font-size: 55px;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #84ccff;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.emoji {
+  background-color : #87ceff;
+  border: solid ;
+  color: #87ceff;
+  border-width: 0px;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 50%;
+  display: inline;
+} 
+
+.emotionButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.text {
+  font-family: 'Nunito', sans-serif;
+  white-space: wrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.doreen {
+  font-family: 'Nunito', sans-serif;
+  white-space: wrap; 
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.photos {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  border: 1px;
+  border-color:white;
+  padding: 20px 10px
+}
+.footer {
+  padding: 50px 20px;
+}
+
+.emoji:link, .emoji:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.emoji:hover, .emoji:active {
+  background-color:white;
+}
+
+.crisis:link, .crisis:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.crisis:hover, .crisis:active {
+  background-color:red;
+  color: white;
+}
+
+.works {
+  background-color: #84ccff;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}

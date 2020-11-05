@@ -1,0 +1,154 @@
+body {
+  background-color: rgb(255, 223, 242);
+}
+
+h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 60px;
+  color: #84ccff;
+  display: flex;
+  justify-content: center;
+}
+
+/* #ffd1dc; - PASTEL PINK// */
+
+h2 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 75px;
+}
+
+ .emoji {
+  background-color : #87ceff;
+  border: solid ;
+  color: #87ceff;
+  border-width: 0px;
+  padding: 4px 12px;
+  font-size: 45px;
+  border-radius: 50%;
+  display: inline;
+} 
+
+.emotionButtons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.crisis{
+    background-color :#FFFF00;
+  border: solid ;
+  border-width: 0px;
+  padding: 7px 10px;
+  display: block;
+  font-size: 40px;
+  border-radius: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-bar-options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* tabs and emojis turning white when hovered: */
+.option:link, .option:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.option:hover, .option:active {
+  background-color:white;
+}
+
+.emoji:link, .emoji:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.emoji:hover, .emoji:active {
+  background-color:white;
+}
+
+.crisis:link, .crisis:visited {
+  background-color: #87ceff;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.crisis:hover, .crisis:active {
+  background-color:red;
+  color: white;
+}
+
+.option {
+  background-color: #87ceff;
+  border: solid;
+  border-width: 0px;
+  padding: 7px 10px;
+  font-size:  25px;
+  border-radius: 15px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.accessibility{
+background-color: white;
+border-radius: 50%;
+border: white solid;
+}
+
+.accessibilityButton {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  Object-fit: cover;
+}
+
+div {
+  display: flex;
+align-content: flex-end;
+justify-content: flex-end;
+}
+
+/* since your anchor tags are inside of your button with the option class, i just added .option and a*/
+/* you can change this to whatever color you want*/
+.option a {
+  color: black;
+  text-decoration-line: none;
+}
+
+.copingSkills {
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  display: flex;
+}
+
+.copingSkillsTwo {
+  font-family: 'Nunito', sans-serif;
+  font-size: 32px;
+  display: flex;
+}
+
+footer{ 
+  display: flex;
+  align-content:flex-end;
+  justify-content: flex-end;
+}
+
+.stigma-text {
+  font-family: 'Nunito', sans-serif;
+}
+
+p{
+  font-family: 'Nunito', sans-serif;
+}
